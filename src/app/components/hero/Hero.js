@@ -65,13 +65,13 @@ export default function Hero({id}) {
         <div className="px-5 flex items-center justify-between">
           <div className="text-black flex flex-col gap-y-10 px-5">
             <h2
-              className={`text-4xl uppercase leading-snug ${chakra_petch.className}`}
+              className={`text-4xl uppercase leading-snug ${chakra_petch.className}`}  //leading snug = line height
             >
               {" "}
               <span className=" text-blue-500">welcome</span> to <br /> the
               parking <br /> management system
             </h2>
-            <p className=" leading-snug text-lg">
+            <p className=" leading-snug text-lg"> 
               Seamlessly streamline your parking operations with our intuitive
               web app. Simplify reservations, optimize space utilization, and
               enhance customer satisfaction.{" "}

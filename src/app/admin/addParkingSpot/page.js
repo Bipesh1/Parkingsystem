@@ -1,4 +1,5 @@
 "use client"
+
 import React from 'react'
 import Layout from '@/app/components/layout/Layout'
 import Button from "@/app/components/button/Button"

@@ -123,9 +123,7 @@ export default function Login() {
                 className=" outline-none border border-gray-400 border-opacity-30 px-5 py-2  placeholder:text-gray-500"
               />
             </div>
-            <div>
-                <Link href={"/admin/adminlogin"} className=" text-blue-700">Login as admin?</Link>
-              </div>
+            
             <div className="btn flex gap-x-3">
               <Button
                 title={"Login"}
@@ -136,7 +134,7 @@ export default function Login() {
                 event={onLogin}
               />
               <Link href={"/register"}>
-                {" "}
+                
                 <Button
                   title={"Register"}
                   bgcolor={"#1F51FF"}
